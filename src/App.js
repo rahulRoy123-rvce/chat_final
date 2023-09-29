@@ -1,19 +1,8 @@
 import Logo from "./assets/logo.png"
 import React from "react";
-import Home from "./components/pages/Home";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Layout from "./components/UI/Layout";
-import Order from "./components/pages/Order";
-import Works from "./components/individual/Works";
-import RAE from "./components/pages/RAE";
-import CoorInfo from "./components/pages/CoorInfo";
-import TOU from "./components/pages/TOU";
-import Faqs from "./components/pages/Faqs";
-import Privacy from "./components/pages/Privacy";
-import ContactUs from "./components/pages/ContactUs";
-import Pricing from "./components/pages/Pricing";
-import BannerHead from "./components/individual/BannerHead";
-import ScrollToTop from "./components/UI/ScrollToTop";
+import Test from "./assets/test.jpg"
+
+
 
 function App() {
   return (
@@ -47,8 +36,8 @@ function App() {
           </div>
         </div>
       </div>
-      <div class="p-4 md:w-1/3">
-        <div class="flex flex bg-blue-200 rounded-xl shadow-2xl h-full bg-gray-100 p-8 flex-col">
+      <div class=" p-4 md:w-1/3">
+        <div className="flex flex bg-blue-200 rounded-xl shadow-2xl h-full bg-gray-100 p-8 flex-col">
           <div class="flex items-center mb-3">
             <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -59,8 +48,8 @@ function App() {
             <h2 class="text-gray-900 text-lg title-font font-medium">To Do list</h2>
           </div>
           <div class="flex-grow">
-            <p class="leading-relaxed text-base">Check your Time-table so that you won't miss your classes.</p>
-            <a href="https://65147e74f0fe693494406c09--shiny-mermaid-071039.netlify.app/" class="mt-3 text-indigo-500 inline-flex items-center">time table
+            <p class="leading-relaxed text-base">Plan your day wisely so that u never miss any homework or assignment</p>
+            <a href="https://65168b258469b44e8da25e55--bespoke-belekoy-295a4c.netlify.app/">To Do list
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
@@ -117,7 +106,7 @@ function App() {
       </div>
       
     </div>
-    <div className="flex">
+    <div className="flex justify-center">
     <div className="flex mb-5  flex-col mt-5 ml-4 bg-blue-200 rounded-lg shadow-2xl">
       
     <p className="mt-5 font-bold mb-5 mx-auto">

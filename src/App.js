@@ -1,3 +1,4 @@
+import Logo from "./assets/logo.png"
 import React from "react";
 import Home from "./components/pages/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -19,9 +20,11 @@ function App() {
     <div className="bg-pink-300">
       <section class="text-gray-600 body-font">
   <div className=" container px-5 py-24 mx-auto ">
-    <div className="flex bg-blue-300 rounded-xl flex-col text-center w-full mb-20">
-      
-      <h1 className="sm:text-3xl mt-6 mb-6 text-6xl font-medium title-font text-gray-900">Personlised Student Chatbot</h1>
+    <div className="flex flex-row bg-blue-300 rounded-xl flex-row text-center w-full mb-20">
+      <div className="ml-4 mt-2 mb-2">
+        <img src={Logo} alt="logo" className="w-20 h-20 mx-auto"/>
+      </div>
+      <h1 className="text-3xl mx-auto mt-6 mb-6 text-6xl font-medium title-font text-gray-900">Personalised Student Chatbot</h1>
     </div>
     <div className="flex flex-wrap -m-4">
       <div class="p-4 md:w-1/3">
@@ -53,10 +56,10 @@ function App() {
                 <circle cx="12" cy="7" r="4"></circle>
               </svg>
             </div>
-            <h2 class="text-gray-900 text-lg title-font font-medium">Time Table</h2>
+            <h2 class="text-gray-900 text-lg title-font font-medium">To Do list</h2>
           </div>
           <div class="flex-grow">
-            <p class="leading-relaxed text-base">Chech your Time-table so that you wont miss your classes.</p>
+            <p class="leading-relaxed text-base">Check your Time-table so that you won't miss your classes.</p>
             <a href="https://65147e74f0fe693494406c09--shiny-mermaid-071039.netlify.app/" class="mt-3 text-indigo-500 inline-flex items-center">time table
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -75,7 +78,7 @@ function App() {
                 <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
               </svg>
             </div>
-            <h2 class="text-gray-900 text-lg title-font font-medium">Test Your Knowlede</h2>
+            <h2 class="text-gray-900 text-lg title-font font-medium">Test Your Knowledge</h2>
           </div>
           <div class="flex-grow">
             <p class="leading-relaxed text-base">Give a quiz and get to know how much you have leant</p>
@@ -110,9 +113,35 @@ function App() {
           </div>
           
         </div>
+       
       </div>
+      
     </div>
+    <div className="flex">
+    <div className="flex mb-5  flex-col mt-5 ml-4 bg-blue-200 rounded-lg shadow-2xl">
+      
+    <p className="mt-5 font-bold mb-5 mx-auto">
+     Submitted by
+      
+    </p>
+  
+    <p className="mx-auto">
+      Sharath Chandra - 1RV21CS150
+    </p>
+    <p className="mx-auto">
+      Sadiq Wahid Tuggo - 1RV21CS135
+    </p>
+    <p className="mx-auto">
+      Vishesh Gupta - 1RV21CS191
+    </p>
+    <p className="mb-5 mx-auto"> 
+      Samiksha Ranjan - 1RV21CS141
+    </p>
+    </div>
+    </div>
+    
   </div>
+  
 </section>
     </div>
   );
